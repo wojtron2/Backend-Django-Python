@@ -27,3 +27,8 @@ pip install djangorestframework
 pip install drf-spectacular
 
 python manage.py createsuperuser
+
+
+testy narzedzia admin
+
+testy narzedzia swagger
