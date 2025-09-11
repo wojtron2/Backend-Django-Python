@@ -30,5 +30,7 @@ python manage.py createsuperuser
 
 
 testy narzedzia admin
+http://127.0.0.1:8000/admin/
 
 testy narzedzia swagger
+http://127.0.0.1:8000/api/docs/
