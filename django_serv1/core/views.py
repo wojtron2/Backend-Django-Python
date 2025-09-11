@@ -11,3 +11,12 @@ def ping(_request):
 def datetime_epoch(_request):
     epoch = int(timezone.now().timestamp())  # datetime in EPOCH format
     return JsonResponse({"epoch": epoch})
+    
+    
+def datetime_epoch(_request):
+    epoch = int(timezone.now().timestamp())
+    return JsonResponse({"epoch": epoch})
+
+def datetime_iso(_request):
+    iso_time = timezone.now().isoformat()
+    return JsonResponse({"datetime": iso_time})
