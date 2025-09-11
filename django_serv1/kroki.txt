@@ -21,3 +21,5 @@ stop server
 
 python manage.py startapp core
 
+
+pip install djangorestframework
