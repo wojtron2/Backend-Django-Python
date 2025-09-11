@@ -17,4 +17,7 @@ python manage.py migrate
 
 python manage.py runserver
 
+stop server
+
 python manage.py startapp core
+
