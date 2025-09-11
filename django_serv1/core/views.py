@@ -6,3 +6,7 @@ from django.http import JsonResponse
 
 def ping(_request):
     return JsonResponse({"status": "ok"})
+    
+def datetime_epoch(_request):
+    epoch = int(timezone.now().timestamp())  # datetime in EPOCH format
+    return JsonResponse({"epoch": epoch})
