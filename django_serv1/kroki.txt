@@ -1,0 +1,13 @@
+ustawic 3.12 jako glowny tworzac plik py.ini w %appdata%
+
+wstawic tam
+[defaults]
+python=3.12
+
+cd do katalogu
+py -3.12 -m venv .venv
+.\.venv\Scripts\activate.bat
+python -m pip install --upgrade pip
+pip install django
+
+
