@@ -25,3 +25,5 @@ python manage.py startapp core
 pip install djangorestframework
 
 pip install drf-spectacular
+
+python manage.py createsuperuser

@@ -15,3 +15,7 @@ def datetime_epoch(_request):
 def datetime_iso(_request):
     iso_time = timezone.now().isoformat()
     return JsonResponse({"datetime": iso_time})
+    
+def django_frontend(request):
+    context = {"title": "Django frontend page", "name": "django_front_test_user"}
+    return render(request, "django_frontend.html", context)
