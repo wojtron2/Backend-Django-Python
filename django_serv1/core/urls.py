@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import ping, datetime_epoch
+from .views import ping, datetime_epoch, datetime_iso
 
 urlpatterns = [
     path("ping/", ping),
